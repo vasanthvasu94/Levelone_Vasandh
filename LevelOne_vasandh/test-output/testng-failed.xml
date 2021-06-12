@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.leafBot.testcases.TC004_DeleteLead">
+        <methods>
+          <include name="stopReport"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="report"/>
+          <include name="startReport"/>
+          <include name="setData"/>
+          <include name="deleteLead"/>
+        </methods>
+      </class> <!-- com.leafBot.testcases.TC004_DeleteLead -->
+      <class name="com.leafBot.testcases.TC003_EditLead">
+        <methods>
+          <include name="stopReport"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="report"/>
+          <include name="startReport"/>
+          <include name="editLead"/>
+        </methods>
+      </class> <!-- com.leafBot.testcases.TC003_EditLead -->
+      <class name="com.leafBot.testcases.TC002_CreateLead">
+        <methods>
+          <include name="setData"/>
+          <include name="stopReport"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="report"/>
+          <include name="startReport"/>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- com.leafBot.testcases.TC002_CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
